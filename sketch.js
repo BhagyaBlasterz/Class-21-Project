@@ -35,7 +35,7 @@ function draw() {
   text("m key = Moving",20, 115);
   
   edges=createEdgeSprites();
-  astronautbounce.Off(edges);
+  astronaut.bounceOff(edges);
   
   if(keyDown("UP_ARROW")){
     astronaut.addAnimation("brushing", brush);
